@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.glass-effect {
+    background-color: #fff; /* Set glass effect background color */
+    max-width: 800px; /* Set maximum width */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin to separate from info section */
+}
+
+.logo {
+    font-size: 24px;
+    color: #333; /* Set logo color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Set navigation link color */
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2,
+.info h4,
+.info p {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+.si {
+    margin-top: 20px; /* Add margin to separate from button */
+}
+
+.si p {
+    margin: 0;
+}
+
+.si ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.si ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.si ul li i {
+    font-size: 24px;
+    color: #333; /* Set social icon color */
+}
